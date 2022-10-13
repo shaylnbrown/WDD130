@@ -1,0 +1,31 @@
+body {
+    background-color: pink;
+}
+
+img {
+    align-items: center;
+    width: 200px;
+}
+
+#edtitle {
+    color: white;
+}
+
+#eddef {
+    color: white;
+}
+
+#edcit {
+    color: white;
+}
+
+#quote {
+    color: white;
+}
+
+#pandos {
+    border: black;
+    border-style: solid;
+    
+    font-weight: bold;
+}
