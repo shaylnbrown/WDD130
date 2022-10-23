@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Inter+Tight:wght@300&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
+
 nav {
     text-align: center;
     color: rgb(19,66,102);
@@ -16,29 +18,36 @@ nav {
 main {
     text-align: center;
 }
+
+
 #background {
     height: 725px;
 }
 body {
     background-color: white;
+    font-family: "Inter Tight", "Times New Roman", Times, serif ; 
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:rgb(120,197,215);
+    font: "Bungee Spice";
 }
 nav a:hover {
     background-color: rgb(120,197,215);
     color: rgb(252,225,114);
 }
-.book {
+.book, .join {
     background-color: white;
     color: rgb(19,66,102);
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
-.join {
-    background-color: rgb(19,66,102);
-    color: white;
-    text-decoration: none;
-}
+
 .book:hover {
     background-color: white;
     color: rgb(252,225,114);
@@ -52,20 +61,29 @@ nav a:hover {
 }
 .msg {
     background-color:rgb(19,66,102);
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color:rgb(120,197,215);
-    color: rgb(19,66,102)
+    color: rgb(19,66,102);
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: rgb(19,66,102);
     text-decoration: none;
+}
+footer .social img {
+    padding-top: 15px;
 }
 footer a:hover {
     color: rgb(252,225,114)
 }
 .home-title {
     color: rgb(19,66,102);
+    margin-top: 10px;
+
 }
 h4 {
     color: rgb(19,66,102);
@@ -75,6 +93,8 @@ h4 {
 }
 .msg p {
     color: rgb(120,197,215);
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .logo, .icon {
     width: 80px;
@@ -88,4 +108,41 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }
+
+h2 {
+    margin: 0;
+}
+
+.home-title, h4 {
+    font-family: "Bungee Spice", "Inter Tight", "Times New Roman", Times, serif;
+    font-size: 2em;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+nav a {
+    padding: 35px;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid rgb(120,197,215);
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+
+
+
 /*Test*/
