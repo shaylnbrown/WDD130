@@ -122,7 +122,7 @@ h2 {
     margin: 0;
 }
 
-.home-title, h4 {
+.home-title, h4, #maintitle {
     font-family: "Bungee Spice", "Inter Tight", "Times New Roman", Times, serif;
     font-size: 1.5em;
 }
@@ -221,6 +221,74 @@ main section img {
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
+}
+
+.rivers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(9, 1fr);
+    place-items: center;    
+}
+
+.river1p, .river2p, .river3p {
+    width: 100%;
+    grid-column: 1/2;
+    display: flex;
+}
+
+.river1p {    
+    grid-row: 1/4;
+    
+}
+
+#river1t, #river2t, #river3t {    
+    font-size: 20px;     
+    height: 100%; 
+    padding: 30px;  
+}
+
+#river1t {
+    grid-column: 2/4;
+    grid-row: 2/4;        
+}
+
+#river2t {
+    grid-column: 2/4;
+    grid-row: 5/7;    
+}
+
+#river3t {
+    grid-column: 2/4;
+    grid-row: 8/10;    
+}
+
+.river2p {    
+    grid-row: 4/7;
+}
+
+.river3p {    
+    grid-row: 7/10;
+}
+
+#maintitle {
+    text-align: center;
+    font-size: 60px;
+}
+
+#river1h {
+    grid-column: 2/4;
+    grid-row: 1/2; 
+      
+}
+
+#river2h {
+    grid-column: 2/4;
+    grid-row: 4/5;    
+}
+
+#river3h {
+    grid-column: 2/4;
+    grid-row: 7/8;    
 }
 
 @media screen and (max-width: 900px) {
