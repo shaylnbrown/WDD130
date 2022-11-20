@@ -122,7 +122,7 @@ h2 {
     margin: 0;
 }
 
-.home-title, h4, #maintitle {
+.home-title, h4, #maintitle, #maintitlefaq {
     font-family: "Bungee Spice", "Inter Tight", "Times New Roman", Times, serif;
     font-size: 1.5em;
 }
@@ -270,7 +270,7 @@ main section img {
     grid-row: 7/10;
 }
 
-#maintitle {
+#maintitle, #maintitlefaq {
     text-align: center;
     font-size: 60px;
 }
@@ -289,6 +289,14 @@ main section img {
 #river3h {
     grid-column: 2/4;
     grid-row: 7/8;    
+}
+
+.question {
+    background-color: rgb(252,225,114);
+}
+
+.answer {
+    
 }
 
 @media screen and (max-width: 900px) {
