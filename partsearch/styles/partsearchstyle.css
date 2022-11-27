@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Merriweather:wght@300&display=swap');
+
+header {
+    background-color: #8D99AE;
+    height: 150px;
+    width: 100%;
+    display: flex;
+}
+
+.banner {
+    width: 100%;    
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr;  
+    place-items: center;
+}
+
+.maintitle {    
+    width: 100%;
+    color: #2B2D42;
+    text-align: center;    
+    font-size: 60px;
+}
+
+.searchlink {     
+    width: 33%; 
+    height: 25%; 
+    font-size: 20px;
+    text-align: center;    
+    border-style: solid;
+    border-color: #2B2D42;          
+    background-color: #EDF2F4;
+    color: #2B2D42;
+    text-decoration: none;
+}
+
+.logo {
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#main {
+    padding-top: 40px;        
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(8,1fr);
+    place-items: center;
+    height: 800px;
+    column-gap: 40px;    
+}
+
+
+
+#bullet1, #bullet2, #para1, #para2 {        
+    width: 100%;
+    height: 100%;
+    grid-column: 2/4; 
+    color: #2B2D42;   
+}
+
+#bullet1, #bullet2 {
+    text-align: center;
+    font-size: 40px;
+    align-items: center;
+    font-family: "Anton", "Times New Roman", Times, serif ; 
+}
+
+#para1, #para2 {
+    font-size: 20px;
+    font-family: "Merriweather", "Times New Roman", Times, serif ; 
+
+}
+
+#bullet1 {    
+    grid-row: 1/2;
+}
+
+#para1 {
+    grid-row: 2/4;
+}
+
+#bullet2 {
+    grid-row: 4/5;
+}
+
+#para2 {
+    grid-row: 5/9;
+}
+
+#vfdpic, #motorpic {
+    width: 75%;
+    grid-column: 4/5;
+}
+
+#machinepic {    
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/9;
+}
+
+#vfdpic {        
+    grid-row: 1/4;
+}
+
+#motorpic {    
+    grid-row: 4/9;
+}
+
+footer {
+    background-color: #8D99AE;
+    height: 75px;
+    width: 100%;  
+    display: flex;  
+    place-items: center;   
+}
+
+#siteplan {
+    font-size: 20px;
+}
+
