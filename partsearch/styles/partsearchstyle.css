@@ -18,6 +18,7 @@ header {
 .maintitle {    
     width: 100%;
     color: #2B2D42;
+    font-family: "Merriweather", "Times New Roman", Times, serif ;
     text-align: center;    
     font-size: 60px;
 }
