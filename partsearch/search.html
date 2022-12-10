@@ -1,35 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles/partsearchstyle.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ARB Part Search</title>
 </head>
 <body>
     <header>
         <a id="logo_link" href ="index.html">
-            <img class="logo" src="media/logo.jpeg" alt ="Dry Oar">
+            <img class="logo" src="media/logo.jpeg" alt ="ARB Part Search">
         </a>
-        <h1 id="maintitle">ARB Part Search</h1>
-        <a id="logo_link" href ="details.html">Details</a>
+        <div class="banner">
+            <h1 class="maintitle">ARB Part Search</h1>            
+        </div>
+        <nav>
+            <a href="search.html">Search</a>
+            <a href="details.html">Details</a>
+        </nav>
     </header>
-
-    <h4 id="loclabel">Locations</h4>
-    <h4 id="imglabel">Images</h4>
-    <h4 id="manlabel">Manufacturers</h4>
-    <h4 id="keylabel">Keywords</h4>
-
-    <div id="manbox"></div>
-    <div id="keybox"></div>
-    
-    <img id="tree" src="media/tree.jpg" alt="Location Tree">
-    <img id="results" src="media/tree.jpg" alt="Location Tree">
-    <img id="tree" src="media/tree.jpg" alt="Location Tree">
-    <img id="image" src="media/vfd.JPG" alt="Location Tree">
+    <div id="searchmain">
+        <div id="left">
+            <img id="tree" src="media/tree.jpg">
+            <img id="picture" src="media/bracket.jfif">
+        </div>
+        <img id="results" src="media/results.jpg">
+        <div id="manufacturers">
+            <label id="manlabel" for="fname">Manufacturer:</label>
+            <select name="cars" id="drop">
+                <option value="SKF">SKF</option>
+                <option value="BALDOR">Baldor</option>
+                <option value="ALLEN BRADLEY">Allen Bradley</option>
+                <option value="SICK">Sick</option>
+            </select>
+        </div>
+        <div id="searchbox">
+            <label id="label" for="fname">Text Search:</label>
+            <input type="text" id="fname" name="fname"><br><br> 
+        </div> 
+        <div id="searchbutton">         
+            <input id="button" type="submit" value="Search">
+        </div> 
+        
+    </div>
 
     <footer>
-        <a id="siteplan" href ="site-plan.html">Site Plan</a>
-
+        <p><a href="site-plan.html">Site Plan</a></p>
+            <p><a href="contactus.html">Contact Us</a></p>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="media/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="media/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="media/instagram.png" alt="instagram icon">
+                </a>
+            </div>
     </footer>
 
 </body>
