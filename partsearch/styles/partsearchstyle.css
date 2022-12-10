@@ -254,5 +254,16 @@ body {
     min-width: 900px;
 }
 
+#locations, #history {
+    border-style: solid;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#detailsmain h1 {
+    text-align: center;
+    color: #2B2D42;
+}
+
 
 
